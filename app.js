@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const app = express()
 
-const url = 'mongodb+srv://admin:Sriharsha_1997@cluster0.dse5t.mongodb.net/materials?retryWrites=true&w=majority'
+const url = 'mongodb+srv://admin:password@cluster0.dse5t.mongodb.net/materials?retryWrites=true&w=majority'
 
 
 mongoose.connect(url,{useNewUrlParser: true})
